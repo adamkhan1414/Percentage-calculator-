@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Title -->
+    <title>Free Percentage Calculator - Instant Online Tool</title>
+
+    <!-- SEO Description -->
+    <meta name="description" content="Free online percentage calculator to find A% of B, what percent A is of B, and increase or decrease values by percentages. Fast, mobile-friendly, and easy to use.">
+
+    <!-- Keywords for search engines -->
+    <meta name="keywords" content="percentage calculator, percent tool, calculate percentage, online calculator, find A% of B, increase by percent, decrease by percent">
+
+    <!-- Author info -->
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Free Percentage Calculator - Instant Online Tool">
+    <meta property="og:description" content="Calculate percentages instantly in your browser. No downloads, free, and mobile-friendly.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:image" content="https://yourdomain.com/preview.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Percentage Calculator</h1>
+        <p>Quickly calculate percentages: find A% of B, what percent A is of B, or increase/decrease values by percentages.</p>
+    </header>
+
+    <main>
+        <div class="calculator">
+            <label for="valueA">Value A:</label>
+            <input type="number" id="valueA" placeholder="Enter value A">
+
+            <label for="valueB">Value B:</label>
+            <input type="number" id="valueB" placeholder="Enter value B">
+
+            <label for="mode">Mode:</label>
+            <select id="mode">
+                <option value="percentOf">A% of B</option>
+                <option value="whatPercent">A is what % of B</option>
+                <option value="increase">Increase B by A%</option>
+                <option value="decrease">Decrease B by A%</option>
+            </select>
+
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="copyResult()">Copy Result</button>
+
+            <div id="result">Result will appear here</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Percentage Calculator. Free to use.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
